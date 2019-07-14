@@ -1,6 +1,6 @@
 <?php
 
-namespace pqrs\L5BCrud\Console\Commands;
+namespace kindemdia\L5BCrud\Console\Commands;
 
 use Symfony\Component\Console\Input\InputArgument;
 

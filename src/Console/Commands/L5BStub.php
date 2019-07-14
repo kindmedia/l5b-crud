@@ -1,6 +1,6 @@
 <?php
 
-namespace pqrs\L5BCrud\Console\Commands;
+namespace kindmedia\L5BCrud\Console\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputArgument;

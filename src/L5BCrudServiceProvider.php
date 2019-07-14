@@ -1,6 +1,6 @@
 <?php
 
-namespace pqrs\L5BCrud;
+namespace kindmedia\L5BCrud;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,8 +13,8 @@ class L5BCrudServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-		$this->commands('pqrs\L5BCrud\Console\Commands\L5BCrud');
-		$this->commands('pqrs\L5BCrud\Console\Commands\L5BStub');
+		$this->commands('kindmedia\L5BCrud\Console\Commands\L5BCrud');
+		$this->commands('kindmedia\L5BCrud\Console\Commands\L5BStub');
     }
 
     /**
